@@ -1,4 +1,6 @@
+import Image from "next/image"
 import { ScaffoldCard } from "@/components/common/styled-components/index"
+import { Developer } from "@/components/common/developer/developer"
 import styles from './landing.module.css'
 
 const Landing = () => {
@@ -11,7 +13,7 @@ const Landing = () => {
                 <button id="know-more"><a href="./resume.html">KNOW MORE</a></button>
             </div>
             <div className={styles.right_wrapper}>
-                Image
+                <Developer />
             </div>
         </ScaffoldCard>
     )
