@@ -1,0 +1,51 @@
+.head{
+
+    animation: headtilt 1s linear infinite alternate;
+    transform-origin: center;
+   
+}
+
+@keyframes headtilt{
+
+    from{
+        transform: rotateZ(2deg);
+
+    }
+
+    to{
+        transform: rotateZ(-2deg);
+    }
+}
+
+
+.c1{
+
+    animation: color-change 1s linear infinite alternate;
+   
+
+}
+
+.c2{
+    animation: color-change 2s linear infinite alternate;
+   
+
+}
+
+.c3{
+    animation: color-change 3s linear infinite alternate;
+}
+
+.c4{
+    animation: color-change 4s linear infinite alternate;
+}
+
+.c5{
+    animation: color-change 5s linear infinite alternate;
+}
+
+@keyframes color-change {
+    
+    0% { fill: rgb(181, 255, 147); }
+    50% { fill: rgb(140, 254, 68); }
+    100% { fill: rgb(39, 190, 1); }
+  }
